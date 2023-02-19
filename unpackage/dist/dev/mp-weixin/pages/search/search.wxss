@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.searchContainer {
+  padding: 0 10px;
+}
+.header {
+  display: flex;
+  height: 60rpx;
+  line-height: 60rpx;
+  padding: 5px 0;
+}
+.searchInput {
+  position: relative;
+  flex: 1;
+  background: rgba(237, 237, 237, 0.3);
+  border-radius: 15px;
+}
+.search {
+  width: 100rpx;
+  text-align: center;
+  font-size: 15px;
+}
+.searchInput input {
+  margin-left: 25px;
+  height: 30px;
+}
+.searchIcon {
+  position: absolute;
+  left: 15px;
+}
+.placeholder {
+  font-size: 14px;
+  color: #dbdbdd;
+  margin-left: 5px;
+}
+.hotContainer .title {
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1rpx solid #eee;
+}
+.hotList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.hotItem {
+  width: 50%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 13px;
+}
+.hotItem .order {
+  margin: 0 5px;
+}
+.iconImg {
+  height: 10px;
+  width: 20px;
+  margin-left: 5px;
+}
+/* 搜索结果区域 */
+.searchContent {
+  color: #93a6e5;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 24rpx;
+  border-bottom: 1rpx solid #d43c33;
+}
+.searchItem {
+  height: 80rpx;
+  line-height: 80rpx;
+  display: flex;
+}
+.searchItem .content {
+  margin-left: 20rpx;
+  border-bottom: 1rpx solid #eee;
+}
+/* 历史记录 */
+.history {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 20rpx 0;
+}
+.history .title {
+  font-size: 28rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.bottomHistory {
+  position: relative;
+  display: flex;
+  flex-flow: wrap;
+  margin: 20rpx 0;
+}
+.history .historyItem {
+  font-size: 26rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  background: #ededed;
+  margin-left: 10rpx;
+  padding: 0 30rpx;
+  border-radius: 20rpx;
+  margin-bottom: 20rpx;
+}
+.headerSearch {
+  display: flex;
+  justify-content: space-between;
+}
+.history .delete {
+  font-size: 36rpx;
+}
+.clear {
+  position: absolute;
+  font-size: 15px;
+  top: 0;
+  right: 15px;
+  z-index: 10;
+}
+.artists {
+  display: flex;
+  margin-left: 15px;
+}
+

@@ -1,0 +1,99 @@
+{
+  
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+      
+		},
+    {
+      "path": "pages/personal/personal",
+      "style": {
+        "navigationBarTitleText":"个人中心"
+      }
+    },
+    {
+      "path": "pages/vedio/vedio"
+    }
+	    ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/recommend/recommend",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "每日推荐",
+                "enablePullDownRefresh": false,
+                "navigationBarBackgroundColor": "#91cdf6"
+            }
+            
+        }
+        ,{
+            "path" : "pages/songDetail/songDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+                
+                // "navigationBarBackgroundColor": ""
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText":"发现音乐",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/playlist/playlist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "推荐歌单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "网抑云音乐",
+		"navigationBarBackgroundColor": "#d43c33",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+  "tabBar": {
+     "selectedColor": "#C00000",
+     "list": [{
+         "pagePath": "pages/index/index",
+         "text": "主页",
+         "iconPath": "static/images/tabs/tab-home.png",
+         "selectedIconPath": "static/images/tabs/tab-home-current.png"
+       },
+       {
+         "pagePath": "pages/vedio/vedio",
+         "text": "视频",
+         "iconPath": "static/images/tabs/select.png",
+         "selectedIconPath": "static/images/tabs/selected.png"
+       },
+       {
+         "pagePath": "pages/personal/personal",
+         "text": "个人中心",
+         "iconPath": "static/images/tabs/tab-my.png",
+         "selectedIconPath": "static/images/tabs/tab-my-current.png"
+       }
+     ]
+  },
+  "requiredBackgroundModes": [
+          "audio"
+      ]
+}
